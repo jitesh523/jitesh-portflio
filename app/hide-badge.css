@@ -1,0 +1,21 @@
+/* Hide the Next.js development badge */
+#__next-build-watcher,
+#__next-route-announcer,
+[data-nextjs-dialog-overlay],
+[data-nextjs-dialog],
+[data-nextjs-toast],
+[data-nextjs-toast-errors],
+[data-nextjs-codeframe],
+[data-nextjs-data-runtime-error],
+[data-nextjs-terminal],
+[data-nextjs-refresh],
+[data-nextjs-scroll-marker],
+[data-nextjs-router-announcer],
+[data-nextjs-color-scheme],
+[data-nextjs-reset-focus-visible],
+[data-nextjs-dev-turbo-badge] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
